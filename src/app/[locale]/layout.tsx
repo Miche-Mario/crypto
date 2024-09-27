@@ -3,6 +3,7 @@ import { getMessages } from "next-intl/server";
 import { ThemeProvider } from "next-themes";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import { ClerkProvider } from "@clerk/nextjs";
 
 export const metadata = {
@@ -30,11 +31,12 @@ export default async function RootLayout({
     <ClerkProvider>
       <html lang={locale}>
         <head />
-        <body className="bg-surface-default">
+        <body className="bg-surface-default flex flex-col min-h-screen">
           <NextIntlClientProvider locale={locale} messages={messages}>
             <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
               <Navbar />
-              <div className="pt-16">{children}</div>
+              <div className="flex-grow pt-16">{children}</div>
+              <Footer />
             </ThemeProvider>
           </NextIntlClientProvider>
         </body>

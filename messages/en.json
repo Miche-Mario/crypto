@@ -39,5 +39,36 @@
     "a4": "Absolutely! While CryptoTracker Pro offers advanced features for experienced traders, it's also designed with beginners in mind. We provide educational resources, user-friendly interfaces, and helpful tooltips to guide you through your crypto journey.",
     "q5": "How often is the market data updated?",
     "a5": "Our platform fetches and updates market data in real-time, ensuring that you always have access to the most current information. This allows you to make timely decisions based on the latest market trends and movements."
+  },
+  "footer": {
+    "description": "Making the world a better place through constructing elegant hierarchies.",
+    "solutions": "Solutions",
+    "support": "Support",
+    "company": "Company",
+    "legal": "Legal",
+    "companyName": "CryptoTracker Pro, Inc.",
+    "allRightsReserved": "All rights reserved.",
+    "solutions": {
+      "tracking": "Crypto Tracking",
+      "analytics": "Analytics",
+      "commerce": "Commerce",
+      "insights": "Insights"
+    },
+    "support": {
+      "pricing": "Pricing",
+      "documentation": "Documentation",
+      "guides": "Guides",
+      "api-status": "API Status"
+    },
+    "company": {
+      "about": "About",
+      "blog": "Blog",
+      "jobs": "Jobs",
+      "press": "Press"
+    },
+    "legal": {
+      "privacy": "Privacy",
+      "terms": "Terms"
+    }
   }
 }
